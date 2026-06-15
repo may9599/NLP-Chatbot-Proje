@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey! How can I help you?"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how are you doing"],
+      "responses": [
+        "I'm doing great!",
+        "I'm fine, thanks for asking!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you"],
+      "responses": [
+        "I am a simple AI chatbot.",
+        "My name is AI Chatbot."
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Have a great day!"
+      ]
+    }
+  ]
+}
